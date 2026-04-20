@@ -133,7 +133,7 @@ while True:
         print("Frame successfully Saved")
 
 
-cv2.release()
+cap.release()
 cv2.destroyAllWindows()
 
 
